@@ -7,7 +7,7 @@ All the code files that are used to implement sentiment analysis models are incl
 
 - `Baseline_Models_and_Distilbert.ipynb` : Includes EDAs of the dataset, data preprocessing with TfidfVectorizer, baseline models (i.e., Logistic Regression, Naive Bayes Multinomial), Distilbert Transformers
 - ` Distilroberta Model.ipynb`: Includes the distilled version of the RoBERTa-base model
-- `Multi-head attention.ipynb`: Includes the multi-head attention transformer model using Keras package
+- `Multi-head attention.ipynb`: Includes the multi-head attention transformer model using Keras package. Since it is our best model, shap value analysis is also conducted for the model result
 - `Roberta_Model.ipynb`: Includes the RoBERTa model
 - `Tokenizer as Feature Extractor.ipynb`: Includes data preprocessing with distilbert tokenizer and a logistic regression model
 - `distilbertroberta_tokenizer.py`: Includes the exclusive tokenizer for the distilbertroberta model
